@@ -1,0 +1,30 @@
+<mvc:View controllerName="jsonmodel9.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:form="sap.ui.layout.form"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+
+    <form:SimpleForm id="formJS"
+    title="Form- Controller Binding">
+    <Label text="Name" />
+    <Input id="inpName" value="{name}"/>
+
+    <Label text="Age" />
+    <Input id="inpAge" value="{age}"/>
+
+    <Label text="City" />
+    <Input id="inpCity" value="{city}"/>
+    </form:SimpleForm>
+
+     <VBox id="vboxJS" class="sapUiSmallMarginTop">
+        <Label text="Name" />
+        <Input id="inpNameVboxJs" value="{name}" />
+
+        <Label text="Age" />
+        <Input id="inpAgeVboxJs" value="{age}" />
+
+        <Label text="City" />
+        <Input id="inpCityVboxJs" value="{city}" />
+    </VBox>
+    </Page>
+</mvc:View>
